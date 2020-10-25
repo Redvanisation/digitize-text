@@ -4,6 +4,7 @@ import Webcam from '../components/Webcam';
 const CameraPage = (): JSX.Element => {
   return <>
     Camera Page
+    
     <Webcam />
   </>
 };
