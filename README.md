@@ -1,46 +1,276 @@
-# Getting Started with Create React App
+# Digitize Text
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+  
 
-In the project directory, you can run:
+<!-- PROJECT SHIELDS -->
 
-### `yarn start`
+<!--
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+*** I'm using markdown "reference style" links for readability.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
 
-### `yarn test`
+*** See the bottom of this document for the declaration of the reference variables
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 
-### `yarn build`
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ [![Issues][issues-shield]][issues-url] [![stars][stars-shield]][stars-url] [![Forks][forks-shield]][forks-url] [![MIT License][license-shield]][license-url]  
+  
 
-### `yarn eject`
+<!-- PROJECT LOGO -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br />
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p  align="center">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- <a href="https://github.com/Redvanisation/FreeRun">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img src="./public/screenshot1.png" alt="Logo" width="860" height="460">
 
-## Learn More
+</a> -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2  align="center">DIGITIZE TEXT</h2>
+
+  
+
+<p  align="center">
+
+A React app that converts handwritten or printed text on a paper to computer text (digitizing it) taking off all that effort to type long text to the computer giving you a faster and easier way to get things done.
+
+<br />
+
+<br />
+
+<!-- <a href="https://objective-payne-c9a208.netlify.com/" target="_blank">Live Link</a> -->
+
+· <a  href="https://github.com/Redvanisation/digitize-text/issues">Report Bug</a>
+
+· <a  href="https://github.com/Redvanisation/digitize-text/issues">Request Feature</a>
+
+</p>
+
+</p>
+
+  
+  
+  
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+  
+
+*  [About the Project](#about-the-project)
+
+*  [Built With](#built-with)
+
+*  [Getting Started](#getting-started)
+
+*  [Prerequisites](#prerequisites)
+
+*  [Installation](#installation)
+
+*  [Usage](#usage)
+
+*  [Contributing](#contributing)
+
+*  [License](#license)
+
+*  [Contact](#contact)
+
+<!-- * [Future Implementations](#future-implementations) -->
+
+  
+  
+  
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+  
+
+<!-- [![Product Name Screen Shot][product-screenshot]](https://objective-payne-c9a208.netlify.app/) -->
+
+  
+
+This is a full-stack app developed with React and Node, it uses the webcam/camera to snap a picture (it also accepts uploading images) of handwritten or printed text on a paper and converts it to a formatted digitized version on the computer, it makes use of the Google Cloud Vision API for character recognition and PostgreSQL as the database.
+
+  
+  
+
+### Built With
+
+  
+
+*  [ReactJS](http://reactjs.org/)
+
+*  [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+
+*  [React Router](https://github.com/ReactTraining/react-router)
+
+<!-- * [JWT](https://jwt.io/) -->
+
+*  [Sass](https://sass-lang.com/)
+
+<!-- * [Bulma](https://bulma.io/) -->
+
+  
+  
+  
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+  
+
+To get a local copy up and running follow these simple steps.
+
+  
+  
+  
+
+### Prerequisites
+
+  
+  
+
+* This project uses `yarn`
+
+```sh
+
+npm install yarn -g
+
+```
+
+  
+  
+  
+
+### Installation
+
+1. Clone the repo and cd into it
+
+```sh
+
+git clone git@github.com:Redvanisation/digitize-text.git
+
+  
+
+cd digitize-text
+
+```
+
+2. Install Yarn packages
+
+```sh
+
+yarn install
+
+```
+
+3. Run the development server with only one of the below commands
+
+```sh
+
+yarn start
+
+```
+
+  
+  
+  
+
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+  
+
+- To be determined...
+
+  
+  
+  
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+  
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+  
+
+1. Fork the Project
+
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+
+5. Open a Pull Request
+
+  
+  
+  
+
+<!-- LICENSE -->
+
+## License
+
+  
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+  
+  
+  
+
+<!-- CONTACT -->
+
+## Contact
+
+  
+
+**Radouane Khiri** - [@redvanisation](https://twitter.com/redvanisation) - [LinkedIn](https://www.linkedin.com/in/redvan/) - redvanisation@gmail.com
+
+  
+  
+  
+  
+  
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[stars-shield]:  https://img.shields.io/github/stars/Redvanisation/digitize-text?style=for-the-badge
+
+[stars-url]:  https://github.com/Redvanisation/digitize-text/stargazers
+
+[forks-shield]:  https://img.shields.io/github/forks/Redvanisation/digitize-text?style=for-the-badge
+
+[forks-url]:  https://github.com/Redvanisation/digitize-text/network/members
+
+[issues-shield]:  https://img.shields.io/github/issues/Redvanisation/digitize-text?style=for-the-badge
+
+[issues-url]:  https://github.com/Redvanisation/digitize-text/issues
+
+[license-shield]:  https://img.shields.io/github/license/Redvanisation/digitize-text?style=for-the-badge
+
+[license-url]:  https://github.com/Redvanisation/digitize-text/blob/main/LICENSE
+
+<!-- [product-screenshot]: ./public/screenshot2.png -->
