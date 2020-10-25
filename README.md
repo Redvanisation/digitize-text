@@ -103,7 +103,7 @@ A React app that converts handwritten or printed text on a paper to computer tex
 
   
 
-This is a full-stack app developed with React and Node, it uses the webcam/camera to snap a picture (it also accepts uploading images) of handwritten or printed text on a paper and converts it to a formatted digitized version on the computer, it makes use of the Google Cloud Vision API for character recognition and PostgreSQL as the database.
+This is a full-stack app developed with React, TypeScript and Node, it uses the webcam/camera to snap a picture (it also accepts uploading images) of handwritten or printed text on a paper and converts it to a formatted digitized version on the computer, it makes use of the Google Cloud Vision API for character recognition and PostgreSQL as the database.
 
   
   
@@ -117,6 +117,8 @@ This is a full-stack app developed with React and Node, it uses the webcam/camer
 *  [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
 *  [React Router](https://github.com/ReactTraining/react-router)
+
+* [TypeScript](https://www.typescriptlang.org/)
 
 <!-- * [JWT](https://jwt.io/) -->
 
