@@ -3,7 +3,7 @@ import React from 'react';
 const HomePage = (): JSX.Element => {
   return <>Home Page!
     
-    <a href="/camera" className="cameraLink"> <button> Take a picture </button> </a>
+    <a href="/camera" className="cameraLink"> <button className="cameraBtn">  <i className="fas fa-camera"></i> </button> </a>
   </>
 };
 
