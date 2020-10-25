@@ -1,11 +1,17 @@
 import React from 'react';
-import Webcam from './components/Webcam';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import CameraPage from './pages/CameraPage';
 
 function App() {
   return (
     <>
-      {/* <h1>Hello Hacktoberfest!</h1> */}
-      <Webcam />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/camera" component={CameraPage} />
+        </Switch>
+      </BrowserRouter>
     </>
   );
 }

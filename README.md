@@ -43,7 +43,7 @@
 
 <p  align="center">
 
-A React app that converts handwritten or printed text on a paper to computer text (digitizing it) taking off all that effort to type long text to the computer giving you a faster and easier way to get things done.
+A React app that converts handwritten or printed text on paper to computer text (digitizing it) taking off all that effort to type long text to the computer giving you a faster and easier way to get things done.
 
 <br />
 
@@ -103,7 +103,7 @@ A React app that converts handwritten or printed text on a paper to computer tex
 
   
 
-This is a full-stack app developed with React, TypeScript, React-HTML5-Camera-Photo package and NodeJS, it uses the webcam/camera to snap a picture (it also accepts uploading images) of handwritten or printed text on a paper and converts it to a formatted digitized version on the computer, it makes use of the Google Cloud Vision API for character recognition and PostgreSQL as the database.
+This is a full-stack app developed with React, TypeScript, React-HTML5-Camera-Photo package and NodeJS, it uses the webcam/camera to snap a picture (it also accepts uploading images) of handwritten or printed text on paper and converts it to a formatted digitized version on the computer, it makes use of the Google Cloud Vision API for character recognition and PostgreSQL as the database.
 
   
   
@@ -116,15 +116,17 @@ This is a full-stack app developed with React, TypeScript, React-HTML5-Camera-Ph
 
 *  [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
-*  [React Router](https://github.com/ReactTraining/react-router)
-
 *  [TypeScript](https://www.typescriptlang.org/)
 
-<!-- * [JWT](https://jwt.io/) -->
+*  [React Router](https://github.com/ReactTraining/react-router)
+
+*  [React-HTML5-Camera-Photo](https://www.npmjs.com/package/react-html5-camera-photo)
 
 *  [Sass](https://sass-lang.com/)
 
-*  [React-HTML5-Camera-Photo](https://www.npmjs.com/package/react-html5-camera-photo)
+<!-- * [JWT](https://jwt.io/) -->
+
+
 <!-- * [Bulma](https://bulma.io/) -->
 
   
@@ -145,7 +147,6 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-  
   
 
 * This project uses `yarn`
