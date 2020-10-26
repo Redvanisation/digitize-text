@@ -37,7 +37,7 @@
 
   
 
-<h2  align="center">DIGITIZE TEXT</h2>
+<!-- <h2  align="center">DIGITIZE TEXT</h2> -->
 
   
 
@@ -122,7 +122,10 @@ This is a full-stack app developed with React, TypeScript, React-HTML5-Camera-Ph
 
 *  [React-HTML5-Camera-Photo](https://www.npmjs.com/package/react-html5-camera-photo)
 
-*  [Sass](https://sass-lang.com/)
+*  [Material UI](https://material-ui.com/)
+
+*  [Linaria](https://linaria.dev/)
+
 
 <!-- * [JWT](https://jwt.io/) -->
 
@@ -187,7 +190,7 @@ yarn install
 
 ```sh
 
-yarn start
+yarn run dev:start
 
 ```
 
