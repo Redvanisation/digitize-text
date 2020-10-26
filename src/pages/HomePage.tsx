@@ -1,10 +1,11 @@
 import React from 'react';
 
 const HomePage = (): JSX.Element => {
-  return <> Start By Taking a Picture
-    
-    <a href="/camera" className="cameraLink"> <button className="cameraBtn">  <i className="fas fa-camera"></i> </button> </a>
-  </>
+  return <div className="home"> 
+  {/* <img className="home__logo" src="" alt="logo"/> */}
+  Home Page
+    <a href="/camera" className="home__link">   <i className="fas fa-camera"></i>  </a>
+  </div>
 };
 
 export default HomePage;

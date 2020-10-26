@@ -1,0 +1,31 @@
+.home {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  img {
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+  }
+  &__link {
+    border-radius: 50px;
+    background-color: rgb(190, 132, 6);
+    transition: all 0.2s ease-in-out;
+    .fa-camera {
+      padding: 30px;
+      font-size: 30px;
+      color: black;
+    }
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(0, 0, 0);
+      transform: scale(1.2);
+      .fa-camera {
+        color: rgb(190, 132, 6);
+      }
+    }
+  }
+}
