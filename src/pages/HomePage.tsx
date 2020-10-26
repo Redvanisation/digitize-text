@@ -2,8 +2,8 @@ import React from 'react';
 
 const HomePage = (): JSX.Element => {
   return <div className="home"> 
-  {/* <img className="home__logo" src="" alt="logo"/> */}
-  Home Page
+  <img className="home__logo" src="" alt="logo"/>
+  
     <a href="/camera" className="home__link">   <i className="fas fa-camera"></i>  </a>
   </div>
 };

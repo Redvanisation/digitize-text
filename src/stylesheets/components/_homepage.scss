@@ -4,6 +4,10 @@
   height: 100vh;
   background-color: black;
   color: white;
+  &__logo {
+    content: url(../../assets/pendf.png);
+    padding: 100px;
+  }
   img {
     width: 100%;
   }
