@@ -1,11 +1,18 @@
 import React from 'react';
+import { css } from 'linaria';
+
+// const testing = css`
+//   font-family: sans-serif;
+//   text-decoration: none;
+//   color: pink;
+//   font-size: 5rem;
+// `;
 
 const HomePage = (): JSX.Element => {
-  return <div className="home"> 
-  <img className="home__logo" src="" alt="logo"/>
-  
-    <a href="/camera" className="home__link">   <i className="fas fa-camera"></i>  </a>
-  </div>
+  return <>Home Page!
+    
+    <a href="/camera"> Take a picture </a>
+  </>
 };
 
 export default HomePage;
