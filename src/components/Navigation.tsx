@@ -6,32 +6,45 @@ import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import { css } from 'linaria';
+import { Link } from 'react-router-dom';
 
+const navStyles = {
+    root: css`
+        flex-grow: 1;
+    `,
 
-const root = css`
-flex-grow: 1;
-background-color: red;
-`;
+    navLink: css`
+        &:link,
+        &:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+    `,
+};
 
 const Navigation = (): JSX.Element => {
-  
-
-  return (
-    <div className={root}>
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton edge="start" color="inherit" aria-label="menu">
+    return (
+        <div className={navStyles.root}>
+            <AppBar position='static'>
+                <Toolbar>
+                    {/* <IconButton edge="end" color="inherit" aria-label="menu">
             <MenuIcon />
-          </IconButton>
-          <Typography variant="h6">
-            News
-          </Typography>
-          <Button color="inherit">Login</Button>
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
+          </IconButton> */}
+                    <Typography variant='h6'>Digitize Text</Typography>
+                    <Button color='inherit'>
+                        <Link to='/' className={navStyles.navLink}>
+                            Home
+                        </Link>
+                    </Button>
+                    <Button color='inherit'>
+                        <Link to='/camera' className={navStyles.navLink}>
+                            Camera
+                        </Link>
+                    </Button>
+                </Toolbar>
+            </AppBar>
+        </div>
+    );
 };
 
 export default Navigation;
-
