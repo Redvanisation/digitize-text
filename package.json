@@ -1,0 +1,20 @@
+{
+  "name": "digitize-text",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:Redvanisation/digitize-text.git",
+  "author": "Radouane Khiri <rkhiri@velocitymsc.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "npx yarn-recursive --skip-root -- install",
+    "dev:start/web": "cd apps/web && yarn run dev:start",
+    "dev:start/server": "cd apps/server && yarn start",
+    "start:secure/web": "cd apps/web HTTPS=true react-scripts start",
+    "test": "react-scripts test",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@softwareventures/yarn-recursive": "^3.1.77"
+  }
+}

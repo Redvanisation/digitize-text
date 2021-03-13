@@ -48,7 +48,6 @@ A React app that converts handwritten or printed text on paper to computer text 
 <br />
 
 <br />
-
 <!-- <a href="https://objective-payne-c9a208.netlify.com/" target="_blank">Live Link</a> -->
 
 · <a  href="https://github.com/Redvanisation/digitize-text/issues">Report Bug</a>
@@ -70,21 +69,13 @@ A React app that converts handwritten or printed text on paper to computer text 
   
 
 *  [About the Project](#about-the-project)
-
 *  [Built With](#built-with)
-
 *  [Getting Started](#getting-started)
-
 *  [Prerequisites](#prerequisites)
-
 *  [Installation](#installation)
-
 *  [Usage](#usage)
-
 *  [Contributing](#contributing)
-
 *  [License](#license)
-
 *  [Contact](#contact)
 
 <!-- * [Future Implementations](#future-implementations) -->
@@ -103,8 +94,9 @@ A React app that converts handwritten or printed text on paper to computer text 
 
   
 
-This is a full-stack app developed with React, TypeScript, React-HTML5-Camera-Photo package and NodeJS, it uses the webcam/camera to snap a picture (it also accepts uploading images) of handwritten or printed text on paper and converts it to a formatted digitized version on the computer, it makes use of the Google Cloud Vision API for character recognition and PostgreSQL as the database.
+This is a full-stack project with web and native apps developed with React, React Native, TypeScript, and NodeJS, it uses the webcam/camera to snap a picture of handwritten or printed text on paper or gets an image that you upload and converts it to a formatted digitized version on the computer, it makes use of the Google Cloud Vision API for character recognition, NestJS in the backend and PostgreSQL as the database.
 
+A second feature that will be added in the future it the ability to tell in which language a piece of text has been written after scanning it.
   
   
 
@@ -116,19 +108,19 @@ This is a full-stack app developed with React, TypeScript, React-HTML5-Camera-Ph
 
 *  [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
+*  [React Native](https://reactnative.dev/)
+
 *  [TypeScript](https://www.typescriptlang.org/)
-
-*  [React Router](https://github.com/ReactTraining/react-router)
-
-*  [React-HTML5-Camera-Photo](https://www.npmjs.com/package/react-html5-camera-photo)
 
 *  [Material UI](https://material-ui.com/)
 
 *  [Linaria](https://linaria.dev/)
 
+*  [NestJS](https://nestjs.com/)
+
+*  [PostgreSQL](https://www.postgresql.org/)
 
 <!-- * [JWT](https://jwt.io/) -->
-
 
 <!-- * [Bulma](https://bulma.io/) -->
 
@@ -186,13 +178,36 @@ yarn install
 
 ```
 
-3. Run the development server with only one of the below commands
+3. Run the development server, use the following commands from the root folder
+
+### For the web app
 
 ```sh
 
-yarn run dev:start
+yarn run dev:start/web
 
 ```
+### For the server
+
+```sh
+
+yarn run dev:start/server
+
+```
+<!-- ### For the native IOS app
+
+```sh
+
+yarn run ...
+
+```
+### For the native Android app
+
+```sh
+
+yarn run ...
+
+``` -->
 
   
   
