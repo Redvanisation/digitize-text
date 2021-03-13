@@ -8,8 +8,10 @@
   "scripts": {
     "install": "npx yarn-recursive --skip-root -- install",
     "dev:start/web": "cd apps/web && yarn run dev:start",
-    "dev:start/server": "cd apps/server && yarn start",
     "start:secure/web": "cd apps/web HTTPS=true react-scripts start",
+    "dev:start/server": "cd apps/server && yarn start",
+    "dev:start/ios": "cd apps/mobile && npx react-native run-ios",
+    "dev:start/android": "cd apps/mobile && npx react-native run-android",
     "test": "react-scripts test",
     "build": "react-scripts build",
     "eject": "react-scripts eject"

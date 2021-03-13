@@ -194,20 +194,26 @@ yarn run dev:start/web
 yarn run dev:start/server
 
 ```
-<!-- ### For the native IOS app
 
-```sh
+4. To run the mobile app follow the steps below
 
-yarn run ...
+    1. Go to this [page](https://reactnative.dev/docs/environment-setup) and follow the steps for both IOS and Android using the **React Native CLI**
+    2. After setting up the development environment for mobile run the following commands from the root directory to start the app
 
-```
-### For the native Android app
+    ### For the native IOS app
 
-```sh
+    ```sh
 
-yarn run ...
+    yarn run dev:start/ios
 
-``` -->
+    ```
+    ### For the native Android app first open the Android simulator then run
+
+    ```sh
+
+    yarn run dev:start/android
+
+    ```
 
   
   
