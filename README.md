@@ -249,7 +249,7 @@ Please read our [CONTRIBUTING][contributing] guidelines and our [Code of Conduct
 
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 
-5. Open a Pull Request
+5. Read the information on [here][your first pull request], then Open a Pull Request
 
   
   
@@ -300,5 +300,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-shield]:  https://img.shields.io/github/license/Redvanisation/digitize-text?style=for-the-badge
 
 [license-url]:  https://github.com/Redvanisation/digitize-text/blob/main/LICENSE
+
+[your first pull request]: YourFirstPR.md
 
 <!-- [product-screenshot]: ./public/screenshot2.png -->
