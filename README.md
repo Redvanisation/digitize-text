@@ -239,7 +239,7 @@ yarn run dev:start/server
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-  
+Please read our [CONTRIBUTING][contributing] guidelines and our [Code of Conduct][code of conduct] before making contributions.
 
 1. Fork the Project
 

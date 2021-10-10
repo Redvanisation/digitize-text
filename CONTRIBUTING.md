@@ -36,5 +36,5 @@ This project is licensed under the terms of the MIT license. See the [LICENSE][l
 
 <!-- Links: -->
 [code of conduct]: CODE_OF_CONDUCT.md
-[core contributor]: CORE_CONTRIBUTOR.md
+[contributing]: CONTRIBUTING.md
 [license]: LICENSE
