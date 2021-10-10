@@ -13,9 +13,9 @@ If the above doesn't help, please [submit an issue](https://github.com/Redvanisa
 
 - To start working on _Digitize Text_, check out [YourFirstPR.md][firstpr]
 
-<!-- ## I want to help work on _Digitize Text_ by reviewing issues and PRs
+## I want to help work on _Digitize Text_ by reviewing issues and PRs
 
-Thanks! We would really appreciate the help! Feel free to read our document on how to [respond to issues and PRs][responding to prs] and also check out how to become a [core contributor][core contributor]. -->
+Thanks! We would really appreciate the help! Feel free to read our document on how to [respond to issues and PRs][responding to prs].
 ## Why did my issue/PR get closed?
 
 It's not you, it's us! In order to effectively work through all the issues and give each the prompt attention it deserves, we need to keep a sharp focus on the work we have outstanding.
@@ -37,4 +37,5 @@ This project is licensed under the terms of the MIT license. See the [LICENSE][l
 <!-- Links: -->
 [code of conduct]: CODE_OF_CONDUCT.md
 [contributing]: CONTRIBUTING.md
+[responding to prs]: RESPONDING-TO-PRS-AND-ISSUES.md
 [license]: LICENSE
